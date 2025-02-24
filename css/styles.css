@@ -259,9 +259,18 @@ h1,h2,h3 {
 }
 
 .empresa{
-    max-width: 20%;
+    max-width: 40%;
 }
 
 .infoEmpresa{
-    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .infoEmpresa{
+        display: flex;
+    }
+    .empresa{
+        max-width: 20%;
+    }
 }
